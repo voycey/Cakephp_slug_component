@@ -25,8 +25,8 @@
                 //get the slug and redirect back here
                 $slug = $this->$model->findById($slug, array('fields' => 'slug'));
 
-                $this->Session->setFlash("Redirected from id to Slug"); //just for development
-                $this->controller->redirect(array('action' => $action, $slug[$model]['slug']));
+                //$this->Session->setFlash("Redirected from id to Slug"); //just for development
+                $this->controller->redirect(array('action' => $action, $slug[$model]['slug']),301);
                 return false;
 
             }
