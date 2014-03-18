@@ -1,7 +1,7 @@
-Cakephp_slug_component
+Cakephp Slug Component
 ======================
 
-This is just a bit of a timesaving way of handling Slugs created by something like CakeDC's sluggable behaviour. The component works twofold. 
+This is just a bit of a timesaving way of handling Slugs to allow a faster find against a slug created by something like CakeDC's sluggable behaviour. The component works twofold;
 
 1) It returns an options array for the model that finds by slug<br />
 2) If an ID is passed it redirects to the slug.
